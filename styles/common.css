@@ -3,11 +3,14 @@
     flex-direction: row;
     
 }
+
 .head-right{
     width: 50%;
 }
+
 .button1{
     float: right;
+
 }
 .headbutton{
     margin: 0px 5px;
@@ -17,10 +20,12 @@
     text-align: center;
     
 }
+
 .head-left{
     width: 50%;
     font-family: 'Ubuntu Mono', monospace;
 }
+
 .heading{
     font-family: 'Montez', cursive; 
     padding: 0%;
@@ -29,6 +34,8 @@
     color: blue;
     font-style: normal;
 }
+
+
 .form1{
     padding: 16px; 
     font-family: 'Open Sans', sans-serif;
@@ -49,7 +56,7 @@
     border: 1px solid #888; 
     width: 80%; 
     color: rgb(85, 85, 85);
-
+        
 }
 
 
@@ -60,6 +67,12 @@
     border-bottom: #ccc 1.5px solid;
     color: rgb(151, 151, 151);
     margin-bottom: 10px;
+}
+
+.headmod1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .footmod{
@@ -75,26 +88,25 @@
     margin-left: 8px;
     cursor: pointer;
 }
+
 .headmodleft{
     width: 90%;
     padding: 0%;
     margin: 0%;
 }
+
 .headmodright{
     align-items: center;
     justify-content: center;
     margin: auto;
-
+    
 }
-
-
-
 
 .modbody{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    
     align-content: center;
 }
 
@@ -108,12 +120,11 @@ input{
     background-color: rgb(233, 233, 233);
     font-weight: bold;
 } 
-
+    
 .buttonmodal { 
     background-color: green; 
     color: white; 
     padding: 10px 0px; 
-    margin: 8px 0; 
     margin: 12px 0; 
     cursor: pointer; 
     width: 100%; 
@@ -133,11 +144,11 @@ input{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     width: 100px;
-
-
+    
+    
 } 
 
-
+      
 .modal { 
     display: none; 
     position: fixed; 
@@ -179,7 +190,8 @@ input{
     background-color: rgba(0, 0, 0, 0.4); 
     padding-top: 60px; 
 }
-
+   
+      
 @media screen and (max-width: 800px) { 
         
     .form1{
